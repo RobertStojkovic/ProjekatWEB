@@ -1,0 +1,153 @@
+body{
+    background-image: url(pozadina.png);
+    background-size: 100%;
+}
+
+.kontKafic{
+    display: flex;
+    flex-direction: column;
+    margin:20px;
+}
+
+
+.naslov{
+    text-align: center;
+    color: rgb(2, 0, 1);
+    text-shadow: 2px 2px 10px rgb(255, 255, 255);
+    font-style:italic;
+    font-size: 40px;
+    flex:1 0;
+    align-self: center;
+    position: static;
+    margin:5px;
+}
+
+
+.divZaElemente{
+    display:flex;
+    flex-direction: row;
+    flex: 1 0;
+    align-self: center;
+    margin:5px;
+    justify-content: space-around;
+    flex-basis: 200px;
+    min-height: 700px;
+    min-width: 200px;
+    
+    
+    
+}
+
+.dugmeUcitaj{
+    font-family: italic;
+    font-size: 15px;
+    text-align: center;
+    color:rgb(223, 24, 24);
+    display: inline-block;
+    align-self: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color:rgb(41, 28, 28) ;
+    border:rgb(245, 210, 242);
+    transition-duration: 0.4s;
+    padding: 12px 28px;
+    width:15%;
+    position: relative;
+}
+
+.dugmeUcitaj:hover{
+    background-color:rgb(64, 33, 206) ;
+    color:rgb(236, 220, 235) ;
+
+}
+
+.klasaForma{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+    align-self: flex-start;
+ 
+}
+
+.kontForma{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+    margin: 10px;
+    border: 1px none black;
+
+
+}
+
+.naslov1{
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(27, 11, 24);
+}
+
+.brojStola, .ime, .prezime, .brojStola1, .brojLjudi{
+    font-style: italic;
+}
+
+
+
+.labele{
+    font-style: italic;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    border: 1px  rgb(241, 230, 241);
+}
+
+.stoKontejner{
+   
+    border: 2px none  rgb(235, 207, 234); ; 
+    flex-basis: 50px;
+    margin:20px;
+    width: 200px;
+    height: 80px;
+    text-align: center;
+    font-size: 18px;
+    font-style:italic;
+    flex-grow: 1;
+    flex-shrink: 0;
+    border-radius: 12px;
+    right:150px;
+    resize: none;
+    
+}
+
+.crtaniStolovi{
+    display: flex;
+    height:10px;
+    justify-content: space-around;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    max-height: 200;
+    
+    
+}
+
+.red{
+    display: flex;
+    flex-direction: row;
+}
+
+.dugmici{
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    display: inline-block;
+    border-radius: 12px;
+    background-color:rgb(255, 255, 255) ;
+    border:rgb(255, 255, 255);
+    transition-duration: 0.4s;
+    margin:5px;
+}
+
+.dugmici:hover{
+    background-color:rgb(25, 0, 255) ;
+    color:rgb(255, 255, 255) ;
+
+}
